@@ -1,0 +1,32 @@
+# Секреты
+.env
+
+# Виртуальное окружение (в твоем случае оно называется VKinder)
+VKinder/
+venv/
+.venv/
+env/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Базы данных (если используешь локальную SQLite)
+*.db
+*.sqlite3
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+
+   # IDE
+   .idea/
+   *.iml
+   .gigaide/

@@ -1,0 +1,10 @@
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-v --tb=short"
+filterwarnings = [
+    "ignore::DeprecationWarning:vk_api.*",
+]
+
+[tool.ruff]
+line-length = 100
+target-version = "py310"
